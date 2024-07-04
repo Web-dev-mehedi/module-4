@@ -9,15 +9,50 @@
 </head>
 <body>
       
-    <section> 
+    <section class="form-wrap"> 
 
         <h2 style="margin-top: 100px;"> please fill up the form</h2>
 
           <form action="">
-              <label for=""></label>
-              <input type="text">
-              <label for=""> </label>
-              <input type="text">
+              <label for="name"> your name :</label><br>
+              <input type="text" placeholder="write your name"><br>
+              <label for="email"> your Email :</label><br>
+              <input type="text" placeholder="write your Email"><br>
+              <label for="phone">your phone :</label><br>
+              <input type="text" placeholder="type your phone number">
+
+              <fieldset>
+                  <legend>
+                      pick one pitha
+                  </legend>
+                   <label for="chitoy">
+                    chitoy
+                     </label>
+                     <input type="radio" name="pitha" id="chitoy">
+                     <label for="vapa">vapa</label>
+                     <input type="radio" name="pitha" id="vapa">
+                     <label for="puli">puli</label>
+                     <input type="radio" name="pitha" id="puli">
+              </fieldset>
+              <fieldset>
+                <legend>pick one more borta</legend>
+
+                   <label for="shutki"> shutki</label>
+                   <input type="checkbox" name="vorta" id="shutki">
+                   <label for="alu">alu</label>
+                   <input type="checkbox" name="vorta" id="alu">
+                   <label for="dal"> dal</label>
+                   <input type="checkbox" name="vorta" id="dal">
+
+              </fieldset>
+              <fieldset>
+                  <legend>special instruction</legend>
+                  <textarea name="" id="" cols="30" rows="5">
+
+                  </textarea>
+              </fieldset>
+                   <input type="reset" value="reset">
+                   <input type="submit" value="submit">
           </form>
 
    </section>

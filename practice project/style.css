@@ -22,3 +22,17 @@ nav >ul > li > a {
     text-align: center;
     margin-top: 50px;
 }
+
+.form-wrap
+{
+    margin: 100px;
+    justify-content: center;
+    text-align: center;
+    /* display: inline; */
+    /* 
+     */
+}
+fieldset {
+    /* display: block;
+    margin: 100px;
+} */
